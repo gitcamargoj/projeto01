@@ -8,3 +8,11 @@
     text-shadow: 0 0 0.2em #1C053A, 0 0 0.2em #1C053A, 0 0 0.2em #1C053A;
     font-size: 170%;
 }
+
+#nav-item-menu {
+	color: #8F78AD;
+}
+
+#navbar-color {
+	background-color: #061539;
+}

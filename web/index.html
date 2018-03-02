@@ -11,13 +11,14 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--Bootstrap CSS-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+        <link rel="stylesheet" href="site.css">
+        
         <title>Home - Operadora XPTO</title>
     </head>
     <body>
         <!--Navegação-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">XPTO</a>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #061539">
+          <a class="navbar-brand" href="index.html" style="color: #8F78AD">XPTO</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -25,23 +26,23 @@ and open the template in the editor.
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="institucional.html">Institucional</a>
+                <a class="nav-link" href="institucional.html" style="color: #8F78AD">Institucional</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="noticias.html">Notícias</a>
+                <a class="nav-link" href="noticias.html" style="color: #8F78AD">Notícias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="servicos.html">Serviços</a>
+                <a class="nav-link" href="servicos.html" style="color: #8F78AD">Serviços</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #8F78AD">
                   Contato
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="callto:0800777666">Televendas</a>
-                  <a class="dropdown-item" href="http://www.twitter.com/operadoraxpto">Twitter</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #061539">
+                  <a class="dropdown-item" href="callto:0800777666" style="color: #8F78AD">Televendas</a>
+                  <a class="dropdown-item" href="http://www.twitter.com/operadoraxpto" style="color: #8F78AD">Twitter</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="callto:0800666777">Ouvidoria</a>
+                  <a class="dropdown-item" href="callto:0800666777" style="color: #8F78AD">Ouvidoria</a>
                 </div>
               </li>
             </ul>
@@ -49,20 +50,33 @@ and open the template in the editor.
         </nav>
         
         <!--Carousel de serviços-->
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="imagens/cable-1-1243098-1279x852.jpg" alt="Internet" width="1280" height="720">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="imagens/room-2559790_1280.jpg" alt="TV" width="1280" height="720">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="imagens/phone-1644317_1280.jpg" alt="Telefone" width="1280" height="720">
+        <center>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="imagens/wireless-cut (1).png" alt="Internet Fibra Optica">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Assine a banda larga mais veloz do Brasil!</h5>
+                        <p>Consulte nossos planos</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="imagens/tel-cut (1).png" alt="Telefone Fixo">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Fale ilimitado com qualquer fixo do Brasil!</h5>
+                        <p>Por apenas R$ 29,90 no XPTO Combo</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="imagens/cinema-cut (1).png" alt="TV Por Assinatura">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Alugue os lançamentos de Hollywood direto na sua TV</h5>
+                        <p>A partir de R$ 99,90 no XPTO Combo</p>
+                      </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        
+        </center>
         <!--Bootstrap JS-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

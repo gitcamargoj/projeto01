@@ -23,6 +23,20 @@
 	background-color: #8F78AD;
 }
 
+#imgDino {
+        border-style:solid;
+        border-color:#222;
+        background-color: #6daec3;
+        width:60%;
+        height:60%;
+} 
+
+#imgTrofeu {
+        border-style:solid;
+        border-color:#222;
+        background-color: #6daec3;
+        width:48%;
+        height:45%;
 #social-footer {
 	color: #8F78AD;
 }

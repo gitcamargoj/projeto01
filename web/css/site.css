@@ -1,18 +1,25 @@
 #a {
     color: white;
     text-shadow: 0 0 0.2em #1C053A, 0 0 0.2em #1C053A, 0 0 0.2em #1C053A;
-    font-size: 200%;
+    font-size: 250%;
 }
 #b {
     color: white;
     text-shadow: 0 0 0.2em #1C053A, 0 0 0.2em #1C053A, 0 0 0.2em #1C053A;
-    font-size: 170%;
+    font-size: 200%;
 }
 
 #nav-item-menu {
 	color: #8F78AD;
 }
 
+#nav-item-menu:hover {background:#8F78AD; color:#ffffff;} 
+
 #navbar-color {
 	background-color: #061539;
 }
+
+#hamburguer {
+	background-color: #8F78AD;
+}
+

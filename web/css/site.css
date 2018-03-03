@@ -39,6 +39,20 @@
         height:45%;
 }
 
+#imgPipoca {
+        border-style:solid;
+        border-color:#222;
+        background-color: #6daec3;
+        width:55%;
+        height:55%;
+}
+
+
+#cardPreços {
+        height:60%;
+        width:60%;
+}
+
 #social-footer {
 	color: #8F78AD;
 }

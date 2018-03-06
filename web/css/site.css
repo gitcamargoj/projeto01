@@ -47,6 +47,14 @@
         height:55%;
 }
 
+#imgBreve { 
+        border-style:solid;
+        border-color:#222;
+        background-color: #6daec3;
+        width:55%;
+        height:55%;
+}
+
 
 #cardPreços {
         height:60%;
